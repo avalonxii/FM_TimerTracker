@@ -1,0 +1,19 @@
+@import './colors.scss' ;
+@import './typography.scss';
+
+$radius: 16px;
+$padding: 2rem 1.6rem 2rem 1.6rem;
+$breakpoint-desktop: 900px;
+
+@mixin desktop {
+    @media screen and (min-width: $breakpoint-desktop) {
+        @content
+    }
+}
+
+:global(*){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
