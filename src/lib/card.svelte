@@ -69,6 +69,7 @@
 			background-color: $neutral-Dark-blue;
 			width: 100%;
 			height: 80%;
+			margin-top: 3.1rem;
 
 			padding: $padding;
 			border-top-left-radius: $radius;
