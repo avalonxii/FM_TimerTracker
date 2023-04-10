@@ -52,7 +52,7 @@ Users should be able to:
 
 1. Make posible use SCSS in Sveltekit and make a global style file import whit the svelte.config.js file
 
-   \*\*first -> `npm i -D svelte-preprocess sass`
+   \*\*first** -> `npm i -D svelte-preprocess sass`
 
    \*\*second :
 
